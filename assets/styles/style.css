@@ -1,0 +1,253 @@
+* {
+    font-family: 'Jost', sans-serif;
+}
+
+body {
+    background-color: #E0E7E9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+header {
+    background-color: #213555;
+
+}
+
+.nav-link {
+    color: #D8C4B6 !important;
+}
+
+.nav-link:hover {
+    color: #F5EFE7 !important;
+    text-underline-offset:3px;
+    text-decoration:underline 1px #D8C4B6 double;
+    text-decoration-skip-ink: auto;
+}
+
+.logo {
+    width: 5rem;
+    height: 1.5rem;
+}
+
+.carousel-item {
+    height: 20rem;
+    object-fit: contain;
+}
+
+.form-check {
+    font-size: 17px;
+}
+.form-check-input, .form-check-label{
+    cursor: pointer;
+}
+.form-check-label:hover{
+    font-weight: bold;
+    color: #213555;
+}
+.form-control{
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0,0.2);
+    transition: all 400ms ease;
+}
+.card-body {
+    color: #213555;
+}
+
+.img-card {
+    width: 18rem;
+    height: 13rem;
+    object-fit: cover;
+
+}
+
+.card-mob {
+    max-height: 32rem;
+    max-width: 18rem;
+  
+}
+.card{
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0,0.4);
+    transform: translateY(-3%);
+    background: linear-gradient(to bottom right,white, #f2f7ff);
+    color: #E0E7E9;
+}
+span {
+    font-weight: bold;
+}
+
+.price-details {
+    color: #213555;
+}
+
+.btn {
+    color: #E0E7E9;
+    background-color: #4F709C;
+    display: block;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom right, #4F709C, #213555);
+    color: #E0E7E9;
+}
+
+form {
+    background-color: #d6dddf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    width: 25rem;
+    border-radius: 5px;
+    color: #333333;
+}
+
+.submit {
+    background-color: #4F709C;
+    color: #E0E7E9;
+    border-radius: 5px;
+    border: 2px solid #4F709C;
+}
+
+.submit:hover {
+    background-color: #213555;
+    color: #E0E7E9;
+    border: 2px solid #213555;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #213555;
+    background-color: #4F709C;
+    color: #213555;
+
+
+}
+
+td {
+    border: 1px solid #213555;
+    padding: 15px;
+    background-color: #d6dddf;
+}
+
+.table-strong {
+    font-weight: bold;
+}
+
+.container-details {
+    background-color: #4F709C;
+    color: #d6dddf;
+    display: flex;
+    flex-direction: row;
+    border-radius: 6px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+}
+.card-bodyDetails{
+    margin-top: 10px;
+}
+.img-details{
+    padding: 1rem;
+    
+}
+footer {
+    background-color: #213555;
+    height: 4rem;
+    color: #D8C4B6;
+    text-align: center;
+}
+
+.icono {
+    width: 2rem;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    *{
+        font-size:14px!important ;
+    }
+    .search-categories {
+        display: flex;
+        flex-wrap: wrap !important;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+
+    .container-check {
+        display: flex;
+        flex-wrap: wrap !important;
+    }
+
+    .container-searchCheck {
+        display: flex;
+        flex-direction: column !important;
+        margin-top: 10px;
+    }
+    .container-details{
+        display: flex;
+        flex-direction: column;
+        width: 90%!important;
+        
+    }
+    .img-details{
+        margin-top:15px!important;
+        margin: 0.5rem;
+        width: 95%;
+        height: 35%!important;
+        object-fit: contain;
+    }
+    .card-bodyDetails{
+        text-align: center;
+        margin-top: 2px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+*{
+    font-size:16px;
+}
+.search-categories {
+    display: flex;
+    flex-wrap: wrap !important;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.container-check {
+    display: flex;
+    flex-wrap: wrap !important;
+}
+
+.container-searchCheck {
+    display: flex;
+    flex-direction: column !important;
+    margin-top: 10px;
+}
+.container-details{
+    display: flex;
+    flex-direction: column;
+    width: 90%!important;
+    
+}
+.img-details{
+    margin-top:15px!important;
+    height: 35%!important;
+    margin: 0.5rem;
+    width: 95%;
+    height: 12rem;
+    object-fit: contain;
+}
+.card-bodyDetails{
+    text-align: center;
+    margin-top: 2px;
+}}
